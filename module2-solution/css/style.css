@@ -4,28 +4,40 @@
 h1{
     text-align: center;
 }
-p {
-    
-    /*height: 200px;*/
-    /*background-color: aquamarine;
-   /* position: relative;
-*/
-}
 
 .row {
     width: 100%;
 }
-#title{
+.title{
     background-color: antiquewhite;
+    border: 1px solid maroon;
     width: 100px;
-    float: right;
-    margin-top: 0;
+    height: 45px;
+    line-height: 45px;
+    font-family: fantasy;
+    position: absolute;
+    top: 0;
+    right: 10px;
     text-align:center;
-
+}
+#Chicken{
+    background-color:darkorange;
+}
+#Sushi{
+    
+    background-color: aqua;
+}
+#Beef{
+    background-color:crimson;
 }
 #text{
     clear: right;
-    margin: 10px
+    padding: 50px 10px 10px 10px;
+    border: 1px solid maroon;
+    background-color:darkseagreen;
+    margin-right: 10px;
+    font-style: oblique;
+    
 }
 
 
@@ -33,35 +45,35 @@ p {
 
     .col-des-4{
         float: left;
-        border: 1px solid maroon;
-        background-color:darkseagreen;
+
         width: 33.33%;
         margin-bottom: 10px;
-
+        position: relative;
     }
-
 }
 
 @media (min-width:768px) and (max-width:991px) {
 
     .col-tab-6 {
         float: left;
-        border: 1px solid maroon;
-        background-color:darkseagreen;
+        position: relative;
         width: 50%;
-                margin-bottom: 10px;
-     
+        margin-bottom: 10px;
+    }
+    .col-tab-12 {
+        float: left;
+        position: relative;
+        width: 100%;
+        margin-bottom: 10px;
     }
 }
 @media (max-width:767px) {
 
     .col-mob-12{
         float: left;
-        border: 1px solid maroon;
-        background-color:darkseagreen;
+        position: relative;
         width: 100%;
-                margin-bottom: 10px;
-
+        margin-bottom: 10px;
     }
 
 }
