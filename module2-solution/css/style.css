@@ -14,11 +14,11 @@ h1{
     width: 100px;
     height: 45px;
     line-height: 45px;
-    font-family: fantasy;
     position: absolute;
     top: 0;
     right: 10px;
     text-align:center;
+    font-weight: bold;
 }
 #Chicken{
     background-color:darkorange;
