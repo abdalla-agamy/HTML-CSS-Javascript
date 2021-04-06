@@ -1,0 +1,23 @@
+
+.navbar-brand{
+    font-size: 2.4em;
+    font-style: bold;
+    color: black;
+    font-family: sans-serif;
+    
+}
+.navbar-nav{
+    text-align: center;
+    background-color: #e5d3f0;
+}
+.navbar-nav  a {
+    border: 1px solid black;
+}
+
+.col-xs-12 p {
+    height: 1000px;
+    border: 2px;
+}
+.container .row{
+    background-color: #b0abb3;
+}
